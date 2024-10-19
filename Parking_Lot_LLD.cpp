@@ -46,11 +46,11 @@ public:
 	map<string, pair<int, int>> mp;
 	map<pair<string, int>, int> mp2;
 	map<pair<string, int>, set<int>> mp3; 
-    map<pair<string,int>,set<int>>mp4;
+    	map<pair<string,int>,set<int>>mp4;
 	ParkingLot(string id, int noOfFloors, int noOfSlotsPerFloor)
 	{
 		canBeParked = noOfFloors * noOfSlotsPerFloor;
-        cout<<"Created a Parking lot with "<<noOfFloors<<" floors and "<<noOfSlotsPerFloor<<" slots per floor"<<endl;
+        	cout<<"Created a Parking lot with "<<noOfFloors<<" floors and "<<noOfSlotsPerFloor<<" slots per floor"<<endl;
 		this->noOfSlotsPerFloor = noOfSlotsPerFloor;
 		this->noOfFloors = noOfFloors;
 		this->id = id;
